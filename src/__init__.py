@@ -6,7 +6,7 @@ machine learning on multi-band photometric data.
 """
 
 __version__ = '1.0.0'
-__author__ = 'Physics Extended Essay Project'
+__author__ = 'Arjun Gupta'
 
 from . import download_data
 from . import preprocess
