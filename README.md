@@ -4,6 +4,8 @@ A study comparing a neural network with the Box Least Squares (BLS) algorithm at
 
 **Research question:** To what extent can a neural network detect exoplanet transit signals in stellar photometric light curves across varying transit depths, compared to the traditional Box Least Squares algorithm?
 
+Read the paper: [exoplanet-transit-detection.pdf](exoplanet-transit-detection.pdf)
+
 ![Detection rate vs transit depth for BLS and the neural network](assets/detection-rate.png)
 
 ## Result
@@ -23,7 +25,3 @@ BLS looks for box-shaped dips, but real transits are rounded by limb darkening. 
 - Sorted into 7 transit depth bins from 0.1 to 20 ppt
 - BLS from astropy, neural network from scikit-learn (64 and 32 neurons), averaged over 10 seeds
 - Both methods tuned to the same 5% false positive rate
-
-## Paper
-
-[exoplanet-transit-detection.pdf](exoplanet-transit-detection.pdf)
