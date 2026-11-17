@@ -23,5 +23,5 @@ BLS looks for box-shaped dips, but real transits are rounded by limb darkening. 
 - 263 confirmed transits around Sun-like stars, from Kepler data
 - Light curves normalised, phase-folded, and resampled to 201 points
 - Sorted into 7 transit depth bins from 0.1 to 20 ppt
-- BLS from astropy, neural network from scikit-learn (64 and 32 neurons), averaged over 10 seeds
+- BLS -> astropy, neural network -> scikit-learn (64 and 32 neurons), averaged over 10 seeds
 - Both methods tuned to the same 5% false positive rate
